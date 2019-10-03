@@ -1,2 +1,2 @@
-# H181600592_Abdan_WEB1
-Untuk Semua Tugas. Saya masih belum mengerti untuk push di repository lama.
+# H18160000594_MUHAMMAD.ANDREYAN.MAULANA_WEB2
+ReadOne&ReadAll
