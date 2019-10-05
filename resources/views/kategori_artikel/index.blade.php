@@ -4,7 +4,7 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">MyWEB</div>
+                <div class="card-header">Kategori Artikel</div>
 
                 <div class="card-body">
                 <a href="{!! route('kategori_artikel.create')!!}" class="btn btn-primary">
