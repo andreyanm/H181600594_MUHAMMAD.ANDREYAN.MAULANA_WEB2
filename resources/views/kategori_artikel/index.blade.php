@@ -16,6 +16,7 @@
     <td>Nama</td>
     <td>Users ID</td>
     <td>Create</td>
+    <td>Update</td>
     <td>Aksi</td>
     </tr>
     @foreach($listKategoriArtikel as $item)
@@ -24,8 +25,11 @@
     <td>{!! $item->nama !!}</td>
     <td>{!! $item->users_id !!}</td>
     <td>{!! $item->created_at->format('d/M/Y H:i') !!}</td>
+    <td>{!! $item->updated_at->format('d/M/Y H:i') !!}</td>
+ 
     <td>
     <a href="{!! route('kategori_artikel.show',[$item->id]) !!}" class="btn btn-primary">Lihat</a>
+    <a href="{!! route('kategori_artikel.edit',[$item->id]) !!}" class="btn btn-warning">Ubah</a> 
     </td>
     </tr>
     @endforeach

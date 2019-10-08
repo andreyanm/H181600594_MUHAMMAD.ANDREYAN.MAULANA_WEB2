@@ -25,6 +25,8 @@ Route::get('/kategori_artikel','KategoriArtikelController@index')->name('kategor
 Route::get('/kategori_artikel/create','KategoriArtikelController@create')->name('kategori_artikel.create');
 Route::post('/kategori_artikel','KategoriArtikelController@store')->name('kategori_artikel.store');
 Route::get('/kategori_artikel/{id}','KategoriArtikelController@show')->name('kategori_artikel.show');
+Route::get('/kategori_artikel/{id}/edit','KategoriArtikelController@edit')->name('kategori_artikel.edit');
+Route::patch('/kategori_artikel/{id}','KategoriArtikelController@update')->name('kategori_artikel.update');
 
 Route::get('/artikel','ArtikelController@index')->name('artikel.index');
 Route::get('/artikel/create','ArtikelController@create')->name('artikel.create');
